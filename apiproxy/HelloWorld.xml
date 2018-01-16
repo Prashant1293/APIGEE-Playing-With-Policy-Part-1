@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<APIProxy revision="44" name="HelloWorld">
+    <Basepaths>/hello</Basepaths>
+    <ConfigurationVersion majorVersion="4" minorVersion="0"/>
+    <CreatedAt>1516100588529</CreatedAt>
+    <CreatedBy>12ps93r@gmail.com</CreatedBy>
+    <Description>Proxy displays a hello message to the user</Description>
+    <DisplayName>HelloWorld</DisplayName>
+    <LastModifiedAt>1516101625265</LastModifiedAt>
+    <LastModifiedBy>12ps93r@gmail.com</LastModifiedBy>
+    <Policies>
+        <Policy>ExtractVariables-2</Policy>
+        <Policy>Key-Value-Map-Operations-1</Policy>
+        <Policy>PreventcopyOfPathSuffix</Policy>
+        <Policy>ResponseCacheCacheHelloMessage</Policy>
+        <Policy>SpikeArrest</Policy>
+    </Policies>
+    <ProxyEndpoints>
+        <ProxyEndpoint>default</ProxyEndpoint>
+    </ProxyEndpoints>
+    <Resources/>
+    <Spec></Spec>
+    <TargetServers/>
+    <TargetEndpoints>
+        <TargetEndpoint>default</TargetEndpoint>
+    </TargetEndpoints>
+    <validate>false</validate>
+</APIProxy>
